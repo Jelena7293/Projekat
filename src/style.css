@@ -1,0 +1,31 @@
+
+body {
+    background-color: #404040;
+}
+
+.textHeader {
+    /*font-size: 26px;*/
+    /*padding-top: 20px;*/
+    /*font-family: "Arial Black";*/
+    /*font-family: cursive;*/
+    font: italic bold 26px Georgia, serif;
+    color: azure;
+    text-shadow: 3px 3px black;
+    margin: 20px;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+}
+
+.borderCentral {
+    background-color: bisque;
+    border: azure 2px solid;
+    border-radius: 10px;
+    height: auto;
+}
+
+.signUpText {
+    font: italic bold 26px Georgia, serif;
+    color: black;
+    text-shadow: 3px 3px azure;
+    margin: 20px;
+}

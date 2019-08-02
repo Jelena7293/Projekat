@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="row fixed">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-9" style="margin-top: 20px">
+            <!--<p class="textHeader">TEST</p>-->
+            <div class="row">
+                <div class="col-sm-3" align="right" >
+                    <img class="rounded" src="../img/logo2.png" width="150">
+                </div>
+                <div class="col-sm-9">
+                    <p class="textHeader">Универзитет у</p>
+                    <p class="textHeader" style="margin-top: -20px;">Источном Сарајеву</p>
+                    <p class="textHeader">University of East Sarajevo</p>
+                </div>
+            </div>
+        </div>
+        <!--<div class="col-sm-2 row" style="align-items: self-start">
+            <button class="btn btn-secondary">Login</button>
+            <button class="btn btn-secondary">Sign Up</button>
+        </div>-->
+    </div>
+
+    <div class="row borderCentral" style="margin-top: 10px">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" align="center">
+            <h2 class="signUpText">Signup</h2>
+            <form action="includes/signup.inc.php" class="was-validated" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="first" placeholder="Firstname"  required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="last" placeholder="Lastname"  required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="profession" placeholder="Profession"  required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="email" placeholder="E-mail"  required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="uid" placeholder="Username"  required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="pwd" placeholder="Password"  required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="userType" placeholder="User type"  required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+
+                <!--<div class="form-group">
+                    <form>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="userType" value="customEx">
+                            <label style="color: brown" class="custom-control-label" for="customRadio">Profesor</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline" >
+                            <input type="radio" class="custom-control-input" id="customRadio2" name="userType" value="customEx">
+                            <label style="color: brown" class="custom-control-label" for="customRadio2">Student</label>
+                        </div>
+                    </form>
+                </div>-->
+                <button type="submit" name="submit" class="btn btn-primary" style="margin-bottom: 20px">SignUp</button>
+            </form>
+            <br>
+        </div>
+        <div class="col-sm-4">
+            <a href="index.html" class="btn btn-outline-secondary" style="float: right; margin-top: 20px">Back</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
